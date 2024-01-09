@@ -1,0 +1,15 @@
+ro.product.system_dlkm.brand=samsung
+ro.product.system_dlkm.device=a34x
+ro.product.system_dlkm.manufacturer=samsung
+ro.product.system_dlkm.model=SM-A346M
+ro.product.system_dlkm.name=a34xub
+ro.system_dlkm.build.date=Wed Dec 13 08:29:46 KST 2023
+ro.system_dlkm.build.date.utc=1702423786
+ro.system_dlkm.build.fingerprint=samsung/a34xub/a34x:13/TP1A.220624.014/A346MUBS4AWL2:user/release-keys
+ro.system_dlkm.build.id=TP1A.220624.014
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=A346MUBS4AWL2
+ro.system_dlkm.build.version.release=13
+ro.system_dlkm.build.version.release_or_codename=13
+ro.system_dlkm.build.version.sdk=33
