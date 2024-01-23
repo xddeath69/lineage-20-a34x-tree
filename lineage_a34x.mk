@@ -13,6 +13,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from a34x device
 $(call inherit-product, device/samsung/a34x/device.mk)
+$(call enforce-product-packages-exist,)
 
 PRODUCT_DEVICE := a34x
 PRODUCT_NAME := lineage_a34x

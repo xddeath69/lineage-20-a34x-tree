@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<compatibility-matrix version="1.0" type="framework">
+    <!-- Outras entradas podem estar presentes aqui -->
+
+    <!-- HALs mencionados -->
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.aee@1.1::IAee/AEE</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.aee@1.1::IAee/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.apmonitor@2.0::IApmService/apm_hidl_service</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.apuware.apusys@2.1::INeuronApusys/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.apuware.utils@2.0::IApuwareUtils/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.apuware.xrp@2.0::INeuronXrp/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.bluetooth.audio@2.2::IBluetoothAudioProvidersFactory/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.camera.isphal@1.0::IISPModule/internal/0</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.composer_ext@1.0::IComposerExt/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.dmc@1.2::IDmcService/dmc_hidl_service</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.log@1.0::ILog/ATMWiFiHidlServer</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.log@1.0::ILog/ConnsysFWHidlServer</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.log@1.0::ILog/LoggerHidlServer</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.log@1.0::ILog/MobileLogHidlServer</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.log@1.0::ILog/ModemLogHidlServer</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.mdmonitor@1.0::IMDMonitorService/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.meta@1.0::IMetaTst/MetaATDHidlServer</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.mmagent@1.1::IMMAgent/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.mms@1.6::IMms/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.mtkpower@1.2::IMtkPerf/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.mtkpower@1.2::IMtkPower/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.netdagent@1.0::INetdagent/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.nvram@1.1::INvram/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.nwk_opt@1.0::INwkOpt/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.mediatek.hardware.pq@2.11::IPictureQuality/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.audio@1.0::ISehDevicesFactory/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.authfw@1.0::ISehAuthenticationFramework/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.biometrics.fingerprint@3.0::ISehBiometricsFingerprint/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.bluetooth.audio@2.1::ISehBluetoothAudioProvidersFactory/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.bluetooth@2.0::ISehBluetooth/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.camera.provider@4.0::ISehCameraProvider/legacy/0</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.gnss@2.0::ISehGnss/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.health@2.0::ISehHealth/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.hqm@1.0::ISehHqm/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.hyper.ISehHyPer/default</name>
+        <version>2</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.keymint.ISehKeyMintExtension/default</name>
+        <version>1</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.keymint.ISehKeyMintFactory/default</name>
+        <version>1</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.miscpower@2.0::ISehMiscPower/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.nfc@2.0::ISehNfc/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio.bridge@2.0::ISehBridge/slot1</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio.bridge@2.0::ISehBridge/slot2</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio.channel@2.0::ISehChannel/epdgd</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio.channel@2.0::ISehChannel/epdgd2</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio.channel@2.0::ISehChannel/imsd</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio.channel@2.0::ISehChannel/imsd2</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio@2.2::ISehRadio/slot1</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.radio@2.2::ISehRadio/slot2</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.drk@2.0::ISehDrk/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.engmode@1.0::ISehEngmode/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.hdcp.wifidisplay.ISehHdcp/default</name>
+        <version>2</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.skpm@1.0::ISehSkpm/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.ssu.ISehSSUTEECL/default</name>
+        <version>1</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.vaultkeeper@2.0::ISehVaultKeeper/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.widevine.keyprov@1.0::ISehWidevineKeyProvisioning/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.security.wsm@1.0::ISehWsm/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.snap.ISehSnap/default</name>
+        <version>1</version>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.sysinput@1.3::ISehSysInputDev/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.thermal@1.0::ISehThermal/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.tlc.hdm@1.1::ISehHdm/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.tlc.iccc@1.0::ISehIccc/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.tlc.kg@1.1::ISehKg/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.tlc.mpos_tui@1.0::ISehMposTui/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.tlc.payment@1.0::ISehTlcPayment/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.wifi.hostapd@4.0::ISehHostapd/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.wifi.supplicant@3.1::ISehSupplicant/default</name>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.samsung.hardware.wifi@2.3::ISehWifi/default</name>
+    </hal>
+
+    <!-- Outras entradas podem estar presentes aqui -->
+
+</compatibility-matrix>
+
